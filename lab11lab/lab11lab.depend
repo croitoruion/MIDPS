@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1455196423 source:b:\code\111\lab11lab\main.cpp
+	<iostream>
+	<windows.h>
+	<MMSystem.h>
+
