@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 192
+  Top = 125
+  Width = 707
+  Height = 604
+  Caption = 'MIDPS'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clBlue
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 80
+    Top = 56
+    Width = 503
+    Height = 37
+    Caption = 'Incrementare Decrementare Contor'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -33
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 120
+    Top = 152
+    Width = 75
+    Height = 25
+    Caption = 'Incrementare'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clLime
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 112
+    Top = 232
+    Width = 75
+    Height = 25
+    Caption = 'Decrementare'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 360
+    Top = 288
+    Width = 75
+    Height = 25
+    Caption = 'exit'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Edit1: TEdit
+    Left = 96
+    Top = 192
+    Width = 121
+    Height = 21
+    TabOrder = 3
+    Text = 'Edit1'
+    OnChange = Edit1Change
+  end
+end
