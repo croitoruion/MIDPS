@@ -1,0 +1,7 @@
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\bin\Debug\CalculatorCsharp.exe
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\bin\Debug\CalculatorCsharp.pdb
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\obj\x86\Debug\CalculatorCsharp.Properties.Resources.resources
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\obj\x86\Debug\CalculatorCsharp.csproj.GenerateResource.Cache
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\obj\x86\Debug\CalculatorCsharp.exe
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\obj\x86\Debug\CalculatorCsharp.pdb
+D:\univer\anul II\Sem2\MIDPS\lab3\CalculatorCsharp\CalculatorCsharp\obj\x86\Debug\CalculatorCsharp.Form1.resources
