@@ -107,7 +107,7 @@ namespace CalculatorCsharp
                 case "/":
                     DisplayTextBox.Text = (operand1 / operand2).ToString();
                     break;
-               /* case "^":
+                case "^":
                     DisplayTextBox.Text = (Math.Pow(operand1,operand2)).ToString();
                     break;
                /* case "+":
