@@ -51,6 +51,7 @@
             this.FourButton = new System.Windows.Forms.Button();
             this.ThreeButton = new System.Windows.Forms.Button();
             this.DotButton = new System.Windows.Forms.Button();
+            this.labelCO = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // DisplayTextBox
@@ -83,63 +84,77 @@
             this.PlusButton.BackColor = System.Drawing.Color.MediumAquamarine;
             this.PlusButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlusButton.BackgroundImage")));
             this.PlusButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PlusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PlusButton.ForeColor = System.Drawing.Color.Blue;
             this.PlusButton.Location = new System.Drawing.Point(235, 142);
             this.PlusButton.Name = "PlusButton";
             this.PlusButton.Size = new System.Drawing.Size(45, 46);
             this.PlusButton.TabIndex = 2;
+            this.PlusButton.Tag = "+";
+            this.PlusButton.Text = "+";
             this.PlusButton.UseVisualStyleBackColor = false;
-            this.PlusButton.Click += new System.EventHandler(this.PlusButton_Click);
+            this.PlusButton.Click += new System.EventHandler(this.operator_Click);
             // 
             // MinusButton
             // 
             this.MinusButton.BackColor = System.Drawing.Color.MediumAquamarine;
             this.MinusButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MinusButton.BackgroundImage")));
             this.MinusButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.MinusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MinusButton.ForeColor = System.Drawing.Color.Blue;
             this.MinusButton.Location = new System.Drawing.Point(286, 142);
             this.MinusButton.Name = "MinusButton";
             this.MinusButton.Size = new System.Drawing.Size(45, 46);
             this.MinusButton.TabIndex = 2;
+            this.MinusButton.Tag = "-";
+            this.MinusButton.Text = "-";
             this.MinusButton.UseVisualStyleBackColor = false;
-            this.MinusButton.Click += new System.EventHandler(this.MinusButton_Click);
+            this.MinusButton.Click += new System.EventHandler(this.operator_Click);
             // 
             // MultiplyButton
             // 
             this.MultiplyButton.BackColor = System.Drawing.Color.MediumAquamarine;
             this.MultiplyButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MultiplyButton.BackgroundImage")));
             this.MultiplyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.MultiplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MultiplyButton.ForeColor = System.Drawing.Color.Blue;
             this.MultiplyButton.Location = new System.Drawing.Point(235, 194);
             this.MultiplyButton.Name = "MultiplyButton";
             this.MultiplyButton.Size = new System.Drawing.Size(45, 46);
             this.MultiplyButton.TabIndex = 2;
+            this.MultiplyButton.Tag = "*";
+            this.MultiplyButton.Text = "*";
             this.MultiplyButton.UseVisualStyleBackColor = false;
-            this.MultiplyButton.Click += new System.EventHandler(this.MultiplyButton_Click);
+            this.MultiplyButton.Click += new System.EventHandler(this.operator_Click);
             // 
             // DivideButton
             // 
             this.DivideButton.BackColor = System.Drawing.Color.MediumAquamarine;
             this.DivideButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DivideButton.BackgroundImage")));
             this.DivideButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.DivideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DivideButton.ForeColor = System.Drawing.Color.Blue;
             this.DivideButton.Location = new System.Drawing.Point(286, 194);
             this.DivideButton.Name = "DivideButton";
             this.DivideButton.Size = new System.Drawing.Size(45, 46);
             this.DivideButton.TabIndex = 2;
+            this.DivideButton.Tag = "/";
+            this.DivideButton.Text = "/";
             this.DivideButton.UseVisualStyleBackColor = false;
-            this.DivideButton.Click += new System.EventHandler(this.DivideButton_Click);
+            this.DivideButton.Click += new System.EventHandler(this.operator_Click);
             // 
             // EqualButton
             // 
             this.EqualButton.BackColor = System.Drawing.Color.MediumAquamarine;
             this.EqualButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EqualButton.BackgroundImage")));
             this.EqualButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.EqualButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EqualButton.ForeColor = System.Drawing.Color.Blue;
             this.EqualButton.Location = new System.Drawing.Point(248, 298);
             this.EqualButton.Name = "EqualButton";
             this.EqualButton.Size = new System.Drawing.Size(81, 46);
             this.EqualButton.TabIndex = 2;
+            this.EqualButton.Text = "=";
             this.EqualButton.UseVisualStyleBackColor = false;
             this.EqualButton.Click += new System.EventHandler(this.EqualButton_Click);
             // 
@@ -148,13 +163,15 @@
             this.PowButton.BackColor = System.Drawing.Color.MediumAquamarine;
             this.PowButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PowButton.BackgroundImage")));
             this.PowButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PowButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 0.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PowButton.ForeColor = System.Drawing.Color.Blue;
             this.PowButton.Location = new System.Drawing.Point(286, 246);
             this.PowButton.Name = "PowButton";
             this.PowButton.Size = new System.Drawing.Size(45, 46);
             this.PowButton.TabIndex = 2;
+            this.PowButton.Text = "^";
             this.PowButton.UseVisualStyleBackColor = false;
-            this.PowButton.Click += new System.EventHandler(this.PowButton_Click);
+            this.PowButton.Click += new System.EventHandler(this.operator_Click);
             // 
             // SqrtButton
             // 
@@ -345,8 +362,19 @@
             this.DotButton.Name = "DotButton";
             this.DotButton.Size = new System.Drawing.Size(49, 46);
             this.DotButton.TabIndex = 1;
+            this.DotButton.Tag = ".";
             this.DotButton.UseVisualStyleBackColor = false;
-            this.DotButton.Click += new System.EventHandler(this.DotButton_Click);
+            this.DotButton.Click += new System.EventHandler(this.DigitBtn_Click);
+            // 
+            // labelCO
+            // 
+            this.labelCO.AutoSize = true;
+            this.labelCO.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.labelCO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCO.Location = new System.Drawing.Point(24, 49);
+            this.labelCO.Name = "labelCO";
+            this.labelCO.Size = new System.Drawing.Size(0, 25);
+            this.labelCO.TabIndex = 3;
             // 
             // Form1
             // 
@@ -356,6 +384,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(343, 386);
+            this.Controls.Add(this.labelCO);
             this.Controls.Add(this.SqrtButton);
             this.Controls.Add(this.PowButton);
             this.Controls.Add(this.EqualButton);
@@ -411,6 +440,7 @@
         private System.Windows.Forms.Button FourButton;
         private System.Windows.Forms.Button ThreeButton;
         private System.Windows.Forms.Button DotButton;
+        private System.Windows.Forms.Label labelCO;
     }
 }
 
